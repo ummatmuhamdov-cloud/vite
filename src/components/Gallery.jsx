@@ -1,7 +1,6 @@
 import React from 'react'
-import img2 from '../assets/img/img2.png'
-import img3 from '../assets/img/img3.png'
-import img4 from '../assets/img/img4.png'
+import { img2, img3, img4 } from './images'
+
 
 const Gallery = () => {
   return (

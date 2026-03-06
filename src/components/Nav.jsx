@@ -1,9 +1,6 @@
 import React from "react";
-import viteLogo from "../assets/img/logo.png";
-import viteHome from "../assets/img/home.png";
-import viteCategory from "../assets/img/category.png";
-import viteAbout from "../assets/img/about_us.png";
-import vitePhone from "../assets/img/phone.png";
+import { viteAbout, viteCategory, viteHome, viteLogo, vitePhone } from "./images";
+
 
 const Nav = () => {
   return (
