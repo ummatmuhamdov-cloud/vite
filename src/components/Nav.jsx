@@ -1,4 +1,9 @@
 import React from "react";
+import viteLogo from "../assets/img/logo.png";
+import viteHome from "../assets/img/home.png";
+import viteCategory from "../assets/img/category.png";
+import viteAbout from "../assets/img/about_us.png";
+import vitePhone from "../assets/img/phone.png";
 
 const Nav = () => {
   return (
@@ -6,7 +11,7 @@ const Nav = () => {
       <nav className="nav">
         <div className="container">
           <div className="nav__content">
-            <img src="/src/assets/img/logo.png" alt="" />
+            <img src={viteLogo} alt="" />
 
             <ul className="nav__list">
               <li><a href="" className="nav__item">Home</a></li>
@@ -19,24 +24,25 @@ const Nav = () => {
 
               <li>
                 <a href="" className="nav__mobile-link">
-                <img src="/src/assets/img/home.png" alt="" />
+                <img src={viteHome} alt="" />
                 </a>
               </li>
 
               <li>
                 <a href="" className="nav__mobile-link">
-                <img src="/src/assets/img/category.png" alt="" />
+                <img src={viteCategory} alt="" />
                 </a>
               </li>              
 
               <li>
                 <a href="" className="nav__mobile-link">
-                <img src="/src/assets/img/about_us.png" alt="" />
+                <img src={viteAbout} alt="" />
                 </a>
               </li>
               <li>
                 <a href="" className="nav__mobile-link">
-                <img src="/src/assets/img/phone.png" alt="" />
+                <img src={vitePhone} alt="" />
+
                 </a>
               </li>
 

@@ -1,4 +1,5 @@
 import React from "react";
+import { img5 } from "./images";
 
 const About = () => {
   return (
@@ -14,7 +15,7 @@ const About = () => {
               This car, with its rear-engine layout and unique design, quickly gained popularity and has since maintained its status, becoming a true icon of the automotive world. The development of the 911 was so successful that it set the brand's overall style and remains the foundation of Porsche to this day.
               Porsche has always been known for its technological achievements. The company’s engineers were among the first to use lightweight carbon materials, improve aerodynamics, and refine suspension systems, achieving exceptional handling and stability at high speeds. Porsche is also famous for its success in motorsport, where its models regularly place highly, including in prestigious races such as the 24 Hours of Le Mans.
             </p>
-            <img src="/src/assets/img/img5.png" alt="" />
+            <img src={img5} alt="" />
           </div>
         </div>
       </div>

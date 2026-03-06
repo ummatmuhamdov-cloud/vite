@@ -1,4 +1,5 @@
 import React from 'react'
+import img1 from '../assets/img/img1.png'
 
 const Main = () => {
   return (
@@ -16,7 +17,7 @@ const Main = () => {
                     </p>
                 </div>
                 <div className="main__content-right">
-                    <img src="/src/assets/img/img1.png" alt="" />
+                    <img src={img1} alt="" />
                 </div>
             </div>
         </div>
